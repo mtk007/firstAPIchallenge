@@ -45,8 +45,11 @@ let table = document.createElement('table')
         
     dRow.appendChild(cName);
     dRow.appendChild(cGender);
-    dRow.appendChild(cAge);
-
+    dRow.appendChild(cAge) 
+    
+    /* future updates {for Unspecified/Adult = get Adult}
+                      {for Unspecified/Eldery = get Eldery}
+*/
         cGender.innerHTML = data.gender,
         cAge.innerHTML = data.age,
         cName.innerHTML = data.name
